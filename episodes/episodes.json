@@ -1,0 +1,20 @@
+{
+  "series": {
+    "id": "life-with-death",
+    "title": "Life with Death",
+    "domain": "www.grimdoc.com"
+  },
+  "episodes": [
+    {
+      "id": "001-dead-tired",
+      "episodeNumber": 1,
+      "title": "Dead Tired",
+      "slug": "dead-tired",
+      "publishDate": "2026-08-11",
+      "description": "Grim tries to take one peaceful break before neighborhood chaos starts up.",
+      "thumbnail": "episodes/001-dead-tired/panel-01.webp",
+      "episodePath": "episodes/001-dead-tired/episode.json",
+      "status": "draft"
+    }
+  ]
+}
