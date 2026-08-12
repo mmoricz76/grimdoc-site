@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life with Death Comic Reader</title>
+  <meta name="description" content="Read Life with Death episodes in the official Grimdoc comic reader.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/comic-reader.css">
+</head>
+<body class="reader-body">
+  <header class="reader-topbar">
+    <a class="brand-link" href="index.html" aria-label="Life with Death home">
+      <span class="brand-mark">☠</span>
+      <span>Life with Death</span>
+    </a>
+    <nav class="reader-nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="comics.html">Comics</a>
+      <a href="index.html#shop">Shop</a>
+    </nav>
+  </header>
+
+  <main class="reader-main">
+    <section class="episode-hero" id="episodeHero" aria-live="polite">
+      <p class="episode-kicker">Episode</p>
+      <h1 id="episodeTitle">Loading episode...</h1>
+      <p id="episodeMeta"></p>
+      <p id="episodeDescription"></p>
+    </section>
+
+    <section class="reader-controls" aria-label="Episode navigation">
+      <a id="firstEpisodeLink" href="comics.html">First</a>
+      <a id="prevEpisodeLink" href="comics.html">Previous</a>
+      <a id="nextEpisodeLink" href="comics.html">Next</a>
+      <a id="latestEpisodeLink" href="comics.html">Latest</a>
+    </section>
+
+    <section id="panelGrid" class="panel-grid" aria-label="Comic panels"></section>
+
+    <section id="episodeMerch" class="episode-merch is-hidden" aria-label="Merchandise from this episode">
+      <h2>From this episode</h2>
+      <a id="episodeMerchLink" class="merch-cta" href="#" target="_blank" rel="noopener noreferrer">Shop the collection</a>
+    </section>
+  </main>
+
+  <script src="js/comic-data.js"></script>
+  <script>
+    window.GrimdocComic.initReaderPage();
+  </script>
+</body>
+</html>
