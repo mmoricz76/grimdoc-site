@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life with Death Comics Archive</title>
+  <meta name="description" content="Browse every Life with Death episode in order.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/comic-reader.css">
+</head>
+<body class="reader-body">
+  <header class="reader-topbar">
+    <a class="brand-link" href="index.html" aria-label="Life with Death home">
+      <span class="brand-mark">☠</span>
+      <span>Life with Death</span>
+    </a>
+    <nav class="reader-nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="comics.html" aria-current="page">Comics</a>
+      <a href="index.html#shop">Shop</a>
+    </nav>
+  </header>
+
+  <main class="archive-main">
+    <section class="archive-hero">
+      <p class="episode-kicker">Archive</p>
+      <h1>Episodes From the Underworld</h1>
+      <p>Every strip lives here. New episodes are added from metadata and panel assets only.</p>
+    </section>
+
+    <section id="archiveList" class="archive-list" aria-label="Comic archive entries"></section>
+  </main>
+
+  <script src="js/comic-data.js"></script>
+  <script>
+    window.GrimdocComic.initArchivePage();
+  </script>
+</body>
+</html>
