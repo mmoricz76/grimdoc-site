@@ -1,0 +1,31 @@
+{
+  "id": "001-dead-tired",
+  "episodeNumber": 1,
+  "title": "Dead Tired",
+  "slug": "dead-tired",
+  "publishDate": "2026-08-11",
+  "description": "Grim attempts to rest in peace, but the underworld has other plans.",
+  "coverPanel": "panel-01.webp",
+  "merchandiseUrl": "",
+  "videoUrl": "",
+  "panels": [
+    {
+      "file": "panel-01.webp",
+      "layout": "standard",
+      "alt": "Grim in his purple bath robe collapses into a chair, exhausted.",
+      "caption": "At last... quiet."
+    },
+    {
+      "file": "panel-02.webp",
+      "layout": "standard",
+      "alt": "The Plague Doctor appears at the doorway with dramatic urgency.",
+      "caption": "You are not going to believe this."
+    },
+    {
+      "file": "panel-03.webp",
+      "layout": "wide",
+      "alt": "The neighborhood erupts into absurd supernatural commotion outside.",
+      "caption": "Rest in peace will have to wait."
+    }
+  ]
+}
