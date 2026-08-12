@@ -4,38 +4,65 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Life with Death | grimdoc.com</title>
-  <meta name="description" content="Life with Death: the home life of the Grim Reaper, who only wants to rest in peace.">
+  <meta name="description" content="Life with Death is a comic about the Grim Reaper trying to rest in peace inside a very chaotic underworld neighborhood.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <p class="kicker">Life with Death</p>
-    <h1>Grim Just Wants To Rest In Peace</h1>
-    <p>Instead, the underworld neighborhood keeps throwing chaos at his front door.</p>
+  <header class="site-nav">
+    <a class="brand-link" href="index.html" aria-label="Life with Death home">
+      <span class="brand-mark">LD</span>
+      <span class="brand-text">Life with Death</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="comics.html">Comics</a>
+      <a href="characters/grim.md">Characters</a>
+      <a id="shopLink" href="#shop">Shop</a>
+    </nav>
   </header>
 
-  <main class="content">
-    <section>
-      <h2>About the Strip</h2>
-      <p>Grim traded the black robe for a comfy purple bath robe. He shares a house with the Plague Doctor and tries to survive one absurd day at a time.</p>
+  <main>
+    <section class="hero" aria-label="Series title hero">
+      <div class="hero-copy">
+        <p class="kicker">Comic Series</p>
+        <h1>Life with Death</h1>
+        <p>
+          Grim traded the black robe for a comfy purple bath robe.
+          He wants one peaceful day. The underworld neighborhood has other plans.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="comic.html">Start Reading</a>
+          <a class="btn btn-secondary" href="comics.html">Open Archive</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="logo-placeholder">
+          Replace with your full "Life with Death" title graphic.
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Latest Comic</h2>
-      <p>Episode pages and images will live in the <strong>comics</strong> and <strong>images/comics</strong> folders.</p>
+    <section class="home-section">
+      <h2>Latest Episode</h2>
+      <p>Episodes are now data-driven. New strips publish from metadata and panel image files.</p>
+      <a class="text-link" href="comic.html">Open latest episode</a>
     </section>
 
-    <section>
-      <h2>Main Cast</h2>
-      <ul>
-        <li>Grim (The Reaper in a purple robe)</li>
-        <li>The Plague Doctor (housemate, wildcard energy)</li>
-      </ul>
+    <section id="shop" class="home-section shop-callout">
+      <h2>Merchandise Store</h2>
+      <p>
+        The main site is comic-first. Merchandise runs through MyDesigns storefront links.
+      </p>
+      <a id="myDesignsCta" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Visit the Store</a>
+      <p class="small-note">Add your MyDesigns URL in js/main.js when ready.</p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Life with Death. All rights reserved.</p>
+    <p>Copyright (c) 2026 Life with Death. All rights reserved.</p>
   </footer>
 
   <script src="js/main.js"></script>
