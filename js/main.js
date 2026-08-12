@@ -1,0 +1,1 @@
+console.log("Life with Death site initialized.");
